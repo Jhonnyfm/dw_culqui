@@ -1,0 +1,23 @@
+{
+  "name": "digitalweb/culqi",
+  "description": "Libreria para el manejo de Culqi",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Dionisio Fonseca Moreyra",
+      "email": "fonseca.dionisio@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.9"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "DigitalWeb\\Culqi\\": "src/"
+    }
+  }
+}
